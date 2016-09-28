@@ -36,7 +36,7 @@
 <body>
     <img src="/weixin_favicon.png" style="position: absolute; left: -9999px; opacity: 0; filter: alpha(opacity=0);">
 
-    <nav class="teal darken-2">
+    <nav class="teal darken -2">
     <div class="nav-wrapper">
         <a href="#" data-activates="main-menu" class="button-collapse">
             <i class="fa fa-navicon"></i>
@@ -95,7 +95,7 @@
                 
             </ul>
             <div>
-    <ul class="side-nav teal darken-2 darken-1" id="main-menu">
+    <ul class="side-nav teal darken -2" id="main-menu">
         
         <li class="side-user">
             <div class="row">
@@ -163,7 +163,7 @@
         
     </ul>
 
-    <ul class="side-nav teal darken-2 darken-1" id="category-menu">
+    <ul class="side-nav teal darken -2" id="category-menu">
     
 
             
@@ -238,13 +238,13 @@
                 <div class="article-title">
                     
     
-        <h1 class="teal darken-2-link-context"><a href="/2016/09/15/Test1/">Test1</a></h1>
+        <h1 class="blue-grey-link-context"><a href="/2016/09/15/Test1/">Test1</a></h1>
     
 
 
                 </div>
 
-                <time class="pink-link-context" datetime="2016-09-16T03:22:58.000Z"><a href="/2016/09/15/Test1/">2016-09-15</a></time>
+                <time class="blue-grey-link-context" datetime="2016-09-16T03:22:58.000Z"><a href="/2016/09/15/Test1/">2016-09-15</a></time>
 
                 
 
@@ -263,13 +263,13 @@
                 <div class="article-title">
                     
     
-        <h1 class="teal darken-2-link-context"><a href="/2016/09/15/hello-world/">Hello World</a></h1>
+        <h1 class="blue-grey-link-context"><a href="/2016/09/15/hello-world/">Hello World</a></h1>
     
 
 
                 </div>
 
-                <time class="pink-link-context" datetime="2016-09-16T02:46:57.000Z"><a href="/2016/09/15/hello-world/">2016-09-15</a></time>
+                <time class="blue-grey-link-context" datetime="2016-09-16T02:46:57.000Z"><a href="/2016/09/15/hello-world/">2016-09-15</a></time>
 
                 
 
@@ -289,7 +289,7 @@
     </li>
     
     
-        <li class="active pink"><a href="/">1</a></li>
+        <li class="active blue-grey"><a href="/">1</a></li>
     
     
     <li class="disabled">
@@ -300,7 +300,7 @@
 </div>
 
         <div class="fixed-action-btn float-sitemap">
-    <a class="btn-floating btn-large pink">
+    <a class="btn-floating btn-large blue-grey">
       <i class="fa fa-caret-square-o-up"></i>
     </a>
     <ul>
@@ -310,7 +310,7 @@
   </div>
 
     </main>
-    <footer class="page-footer teal darken-2 darken-1">
+    <footer class="page-footer teal darken -2 darken-1">
     
     <div class="container">
         <div class="row">
@@ -347,7 +347,7 @@
     </div>
     
 
-    <div class="footer-copyright pink-link-context">
+    <div class="footer-copyright blue-grey-link-context">
         <div class="container">
             © 2016 example.com, All rights reserved.
             <p class="right" style="margin-top: 0;">Blog powered by <a href="https://hexo.io">Hexo</a> | Theme <a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism">raytaylorism</a></p>
@@ -428,11 +428,11 @@
             $('li.tab a').hover(function() {
                 $(this).toggleClass('text-lighten-4');
             });
-            $('.indicator').addClass('pink lighten-2');
+            $('.indicator').addClass('blue-grey lighten-2');
 
             
             // 添加new标签
-            $('.menu-reading, .menu-about').append('<span class="new badge pink"></span>');
+            $('.menu-reading, .menu-about').append('<span class="new badge blue-grey"></span>');
             
 
             // 搜索功能
@@ -507,7 +507,7 @@
                             if (isMatch) {
                                 keywords.forEach(function(keyword) {
                                     var regS = new RegExp(keyword, "gi");
-                                    data_title = data_title.replace(regS, "<span class=\"search-keyword pink lighten-2\">" + keyword + "</span>");
+                                    data_title = data_title.replace(regS, "<span class=\"search-keyword blue-grey lighten-2\">" + keyword + "</span>");
                                 });
 
                                 str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
@@ -529,7 +529,7 @@
                                     // highlight all keywords
                                     keywords.forEach(function(keyword) {
                                         var regS = new RegExp(keyword, "gi");
-                                        match_content = match_content.replace(regS, "<span class=\"search-keyword pink lighten-2\">" + keyword + "</span>");
+                                        match_content = match_content.replace(regS, "<span class=\"search-keyword blue-grey lighten-2\">" + keyword + "</span>");
                                     });
 
                                     str += "<p class=\"search-result\">..." + match_content + "...</p>"
