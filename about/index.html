@@ -39,7 +39,7 @@
 <body>
     <img src="/weixin_favicon.png" style="position: absolute; left: -9999px; opacity: 0; filter: alpha(opacity=0);">
 
-    <nav class="teal darken -4">
+    <nav class="orange accent-4">
     <div class="nav-wrapper">
         <a href="#" data-activates="main-menu" class="button-collapse">
             <i class="fa fa-navicon"></i>
@@ -98,7 +98,7 @@
                 
             </ul>
             <div>
-    <ul class="side-nav teal darken -4" id="main-menu">
+    <ul class="side-nav teal lighten-4" id="main-menu">
         
         <li class="side-user">
             <div class="row">
@@ -166,7 +166,7 @@
         
     </ul>
 
-    <ul class="side-nav teal darken -4" id="category-menu">
+    <ul class="side-nav teal lighten-4" id="category-menu">
     
 
             
@@ -231,7 +231,7 @@
                 <section class="about-me">
                     <h1 class="white-text">
                         <i class="fa fa-street-view"></i>About</h1>
-                    <div class="entry red-link-context">
+                    <div class="entry grey-link-context">
                         <p>大家好，我是XXX。欢迎来到我的个人技术博客。</p>
 <p>这里用markdown写下你的简介，就跟平时写md一样就可以了。</p>
 
@@ -350,7 +350,7 @@
                             
                                 <div class="project-item col m6">
                                     <div class="">
-                                        <div class="card medium red-link-context">
+                                        <div class="card medium grey-link-context">
                                             <div class="card-image">
                                                 <img class="card-cover-image" src="https://d13yacurqjgara.cloudfront.net/users/138819/screenshots/2578899/dribbble_800x600_01_1x.png">
                                                 <span class="card-title">你的项目A</span>
@@ -374,7 +374,7 @@
                             
                                 <div class="project-item col m6">
                                     <div class="">
-                                        <div class="card medium red-link-context">
+                                        <div class="card medium grey-link-context">
                                             <div class="card-image">
                                                 <img class="card-cover-image" src="https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg">
                                                 <span class="card-title">你的作品B</span>
@@ -491,7 +491,7 @@
 </div>
 
         <div class="fixed-action-btn float-sitemap">
-    <a class="btn-floating btn-large indigo">
+    <a class="btn-floating btn-large cyan darken-4">
       <i class="fa fa-caret-square-o-up"></i>
     </a>
     <ul>
@@ -501,7 +501,7 @@
   </div>
 
     </main>
-    <footer class="page-footer teal darken -4 darken-1">
+    <footer class="page-footer teal lighten-5 darken-1">
     
     <div class="container">
         <div class="row">
@@ -538,7 +538,7 @@
     </div>
     
 
-    <div class="footer-copyright red-link-context">
+    <div class="footer-copyright grey-link-context">
         <div class="container">
             © 2016 example.com, All rights reserved.
             <p class="right" style="margin-top: 0;">Blog powered by <a href="https://hexo.io">Hexo</a> | Theme <a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism">raytaylorism</a></p>
@@ -698,7 +698,7 @@
                             if (isMatch) {
                                 keywords.forEach(function(keyword) {
                                     var regS = new RegExp(keyword, "gi");
-                                    data_title = data_title.replace(regS, "<span class=\"search-keyword red lighten-2\">" + keyword + "</span>");
+                                    data_title = data_title.replace(regS, "<span class=\"search-keyword grey lighten-2\">" + keyword + "</span>");
                                 });
 
                                 str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
@@ -720,7 +720,7 @@
                                     // highlight all keywords
                                     keywords.forEach(function(keyword) {
                                         var regS = new RegExp(keyword, "gi");
-                                        match_content = match_content.replace(regS, "<span class=\"search-keyword red lighten-2\">" + keyword + "</span>");
+                                        match_content = match_content.replace(regS, "<span class=\"search-keyword grey lighten-2\">" + keyword + "</span>");
                                     });
 
                                     str += "<p class=\"search-result\">..." + match_content + "...</p>"
